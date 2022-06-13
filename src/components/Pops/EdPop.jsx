@@ -8,12 +8,12 @@ function EdPop(props) {
         <Popup open={props.open} modal>
             {() => (
                 <>
-                    <div class="timeline">
+                    <div class="timeline table-dark">
                         <button type="button" class="btn btn-outline-light" onClick={() => {
                             props.setOpen(false)
                         }
                         }>
-                            <i class="fa-solid fa-chevron-left"></i>                        </button>
+                            <i class="fa-solid fa-chevron-left"></i></button>
                         <ul>
                             <li>
                                 <span>Bachelors</span>

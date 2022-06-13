@@ -65,8 +65,7 @@
   .about{
     color: white;
     font-family: 'Open Sans', sans-serif;
-    width: 2000px;
-    height: 2000px;
+    width: 400px;
   }
 
 
@@ -91,20 +90,21 @@
   }
   .timeline ul li span{
     display:inline-block;
-    background-color:#1685b8;
+    background-color:#3f4b51;
     border-radius:25px;
     padding:2px 5px;
     font-size:15px;
     text-align:center;
   }
   .timeline ul li .content h3{
-    color:#34ace0;
+    color:#515f64;
     font-size:17px;
     padding-top:5px;
   }
   .timeline ul li .content p{
     padding:5px 0px 15px 0px;
     font-size:15px;
+    color: rgb(250, 193, 193);
   }
   .timeline ul li:before{
     position:absolute;

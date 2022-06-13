@@ -8,7 +8,7 @@ function ProjPop(props) {
         <Popup open={props.open} modal>
             {() => (
                 <>
-                    <div class="timeline">
+                    <div class="timeline table-dark">
                         <button type="button" class="btn btn-outline-light" onClick={() => {
                             props.setOpen(false)
                         }
@@ -19,7 +19,7 @@ function ProjPop(props) {
                             <li>
                                 <span>ToDo_list</span>
                                 <div class="content">
-                                    <h8>Type: Web_App</h8>                                   
+                                    <h3>Type: Web_App</h3>                                   
                                     <p>            
                                     Used: express, body-parser, ejs, mongoose
                                     </p>                                
@@ -28,7 +28,7 @@ function ProjPop(props) {
                             <li>
                                 <span>Weather</span>
                                 <div class="content">                                
-                                    <h8>Type: Web_App</h8>
+                                    <h3>Type: Web_App</h3>
                                     <p>
                                         Used: body-parser, express, https, external API
                                     </p>
@@ -37,7 +37,7 @@ function ProjPop(props) {
                             <li>
                                 <span>Notes</span>
                                 <div class="content">                                   
-                                    <h8>Type: React_App</h8>
+                                    <h3>Type: React_App</h3>
                                     <p>
                                         Used: react = ( components, events, hooks ), react-dom
                                     </p>
