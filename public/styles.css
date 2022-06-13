@@ -1,0 +1,137 @@
+
+  .center {
+    margin: auto;
+    width: 100%;
+    padding: 3.3%;
+  }
+
+  .card-txt{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+  }
+  
+  .contact{
+    width: 1000px;
+  }
+
+  td{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(270deg, #030303, #5a5757);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 53s ease infinite;
+    -moz-animation: AnimationName 53s ease infinite;
+    animation: AnimationName 53s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 19%}
+    50%{background-position:100% 82%}
+    100%{background-position:0% 19%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 19%}
+    50%{background-position:100% 82%}
+    100%{background-position:0% 19%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 19%}
+    50%{background-position:100% 82%}
+    100%{background-position:0% 19%}
+}
+
+
+  .heading{
+    text-align: center;
+    color: yellow;
+    padding-top: 5%;
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+  }
+
+  .last{
+    text-align: center;
+    color: white;
+    opacity: 0.3;
+    padding: 0%;
+  }
+  
+  .about{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 2000px;
+    height: 2000px;
+  }
+
+
+
+  .timeline{
+    width:1000px;
+    background-color:#072736;
+    color:#fff;
+    padding:30px 20px;
+    box-shadow:0px 0px 10px rgba(0,0,0,.5);
+  }
+  .timeline ul{
+    list-style-type:none;
+    border-left:2px solid #094a68;
+    padding:10px 5px;
+  }
+  .timeline ul li{
+    padding:20px 20px;
+    position:relative;
+    cursor:pointer;
+    transition:.5s;
+  }
+  .timeline ul li span{
+    display:inline-block;
+    background-color:#1685b8;
+    border-radius:25px;
+    padding:2px 5px;
+    font-size:15px;
+    text-align:center;
+  }
+  .timeline ul li .content h3{
+    color:#34ace0;
+    font-size:17px;
+    padding-top:5px;
+  }
+  .timeline ul li .content p{
+    padding:5px 0px 15px 0px;
+    font-size:15px;
+  }
+  .timeline ul li:before{
+    position:absolute;
+    content:'';
+    width:10px;
+    height:10px;
+    background-color:#34ace0;
+    border-radius:50%;
+    left:-11px;
+    top:28px;
+    transition:.5s;
+  }
+  .timeline ul li:hover{
+    background-color:#071f2a;
+  }
+  .timeline ul li:hover:before{
+    background-color:#0F0;
+    box-shadow:0px 0px 10px 2px #0F0;
+  }
+  @media (max-width:300px){
+    .timeline{
+      width:100%;
+      padding:30px 5px 30px 10px;
+    }
+    .timeline ul li .content h3{
+      color:#34ace0;
+      font-size:15px;
+    }
+  
+  }
