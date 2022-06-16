@@ -18,7 +18,7 @@ function EdPop(props) {
                             <li>
                                 <span>Bachelors</span>
                                 <div class="content">
-                                    <h3>Electronics and Communications Engineering</h3>
+                                    <h3>Electronics and Communication Engineering</h3>
                                     <h8>Grade: 8.1 CGPA</h8>
                                     <p>
                                         National Institute of Engineering, Mysore

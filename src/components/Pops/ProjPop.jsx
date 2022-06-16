@@ -35,11 +35,11 @@ function ProjPop(props) {
                                 </div>
                             </li>
                             <li>
-                                <span>Notes</span>
+                                <span>CV</span>
                                 <div class="content">                                   
                                     <h3>Type: React_App</h3>
                                     <p>
-                                        Used: react = ( components, events, hooks ), react-dom
+                                        Used: react ( components, events, hooks ), react-dom
                                     </p>
                                 </div>
                             </li>                    
