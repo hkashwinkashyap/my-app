@@ -20,10 +20,10 @@ function AboutPop(props) {
                             <div className="text-center card-body about table-dark">
                                 <h3>My Skills</h3>
                                 <ul>
+                                    <li>Java</li>
+                                    <li>HTML5</li>
                                     <li>React.js</li>
                                     <li>Node.js</li>
-                                    <li>HTML5</li>
-                                    <li>Java</li>
                                     <li>JavaScript</li>
                                     <li>Cascading Style Sheets (CSS)</li>
                                     <li>MongoDB</li>
@@ -33,7 +33,7 @@ function AboutPop(props) {
                             </div>
                             <div className="text-center card-body about table-dark">
                                 <h3>About Me</h3>
-                                <p>Full Stack Developer with fluency in building web apps using React.js and Node.js. I exhibit an entrepreneurial mentality as I adapt, learn and work in different environments</p>
+                                <p>Full Stack Developer with fluency in building web apps using Spring Boot, React.js and Node.js. I exhibit an entrepreneurial mentality as I adapt, learn and work in different environments</p>
                                 <Box sx={{ width: 300 }}>
                                     <Skeleton />
                                     <Skeleton animation="wave" />
